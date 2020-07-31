@@ -1,5 +1,4 @@
 class CLI
 
 
-
 end
