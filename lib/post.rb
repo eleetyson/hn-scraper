@@ -12,6 +12,11 @@ class Post
     post_array.each { |post| self.new(post) }
   end
 
+  def self.find_by_id(id)
+    self.all[id].title
+    self.all[id].link
+  end
+
   def self.all
     @@all
   end
