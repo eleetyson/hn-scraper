@@ -13,8 +13,7 @@ class Post
   end
 
   def self.find_by_id(id)
-    self.all[id].title
-    self.all[id].link
+    self.all[id - 1]
   end
 
   def self.all
