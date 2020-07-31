@@ -37,6 +37,7 @@ class CLI
       puts ""
       puts "Title: #{Post.find_by_id(input.to_i).title}"
       puts "Link: #{Post.find_by_id(input.to_i).link}"
+      binding.pry
     end
 
     self.return_to_menu_or_exit
