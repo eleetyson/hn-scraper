@@ -1,6 +1,5 @@
-!#usr/bin/env ruby
+#!/usr/bin/env ruby
 
 require_relative '../config/environment'
 
-test = Scraper.new
-test.scrape_page
+test = Scraper.scrape_page
